@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
 
-const apiKey = 'AIzaSyAz9PgrApKGEkvVL4mbmylLwwtRsrnEcz0';
+const apiKey = 'AIzaSyAlyX_depxi8wo5M9p7saZ6lWG7i86tSNI';
 
 const genAI = new GoogleGenAI({ apiKey });
 
@@ -50,4 +50,5 @@ export const runChat = async (prompt) => {
     return null;
   }
 };
+
 
